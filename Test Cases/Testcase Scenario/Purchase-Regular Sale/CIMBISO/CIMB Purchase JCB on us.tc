@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CIMB Purchase JCB on us</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9ffd2206-4763-47cc-b79d-8b8151ddabbc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05f2760b-bff2-4dde-8b79-3a07354c106c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d5d0affd-bd77-4771-a1b4-8af5bf68c5a7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>63d31be2-5783-4172-b36d-57dab133cc3c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>05f2760b-bff2-4dde-8b79-3a07354c106c</id>
+      <masked>false</masked>
+      <name>CurrentTestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>d5d0affd-bd77-4771-a1b4-8af5bf68c5a7</id>
+      <masked>false</masked>
+      <name>referenceId</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>63d31be2-5783-4172-b36d-57dab133cc3c</id>
+      <masked>false</masked>
+      <name>LandingPage</name>
+   </variable>
+</TestCaseEntity>

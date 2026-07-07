@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_3Bulan Cicilan</name>
+   <tag></tag>
+   <elementGuidId>1b2ce9f9-17fa-4665-b2d4-7e8661d83d49</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='paper']/form/div/div[5]/div/div/button/span/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.month</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ef3bdeb7-3423-4064-9254-5bb8f0b0d72c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>month</value>
+      <webElementGuid>2cd897c8-62d7-4326-8408-d665650d7c6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>3Bulan Cicilan</value>
+      <webElementGuid>218a3bdf-0fb0-419b-8150-6a0a484ac6aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;paper&quot;)/form[1]/div[@class=&quot;MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-12&quot;]/div[@class=&quot;installment columns&quot;]/div[@class=&quot;MuiToggleButtonGroup-root toggle-button-group&quot;]/button[@class=&quot;MuiButtonBase-root MuiToggleButton-root MuiToggleButtonGroup-grouped plan Mui-selected&quot;]/span[@class=&quot;MuiToggleButton-label&quot;]/div[@class=&quot;month&quot;]</value>
+      <webElementGuid>4d7ae09a-1fce-4bb9-8840-0aaa6d21b399</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='paper']/form/div/div[5]/div/div/button/span/div</value>
+      <webElementGuid>f9592ebd-70fe-42b1-8729-540c9e2c3072</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay with installment?'])[1]/following::div[3]</value>
+      <webElementGuid>d4af67be-090d-43f0-abf8-4d6d2d5d0867</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='​'])[4]/following::div[4]</value>
+      <webElementGuid>db39f0d9-cfab-4a01-aa42-03ed85856104</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IDR 3,340 / Mo.'])[1]/preceding::div[1]</value>
+      <webElementGuid>c1e71f7f-4b14-4d97-b797-cadec8583571</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div</value>
+      <webElementGuid>669caccf-ca18-407b-97dc-bfdaff8613d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '3Bulan Cicilan' or . = '3Bulan Cicilan')]</value>
+      <webElementGuid>877b7f12-4cd7-44e1-be13-fcd948c8a178</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

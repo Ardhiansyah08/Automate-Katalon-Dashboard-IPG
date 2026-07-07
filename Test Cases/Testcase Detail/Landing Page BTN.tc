@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Landing Page BTN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7f5b30e5-fea7-444b-9d2e-dced02256e64</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>82210bf8-effe-4bd7-a2a5-78892ff6ff08</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>82210bf8-effe-4bd7-a2a5-78892ff6ff08</id>
+      <masked>false</masked>
+      <name>LandingPage</name>
+   </variable>
+</TestCaseEntity>

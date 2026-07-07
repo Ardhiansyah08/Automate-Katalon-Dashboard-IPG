@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTIISO Installment JCB on us</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>41bde026-e09f-48fd-be6e-4191e2e01bb7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>54a4279f-a3a0-46bc-89c9-00e52553893d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f02c4db6-499a-4464-8e52-0a3b4270b8be</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c747183e-563a-40c4-b087-5618bb90180f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>54a4279f-a3a0-46bc-89c9-00e52553893d</id>
+      <masked>false</masked>
+      <name>CurrentTestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>f02c4db6-499a-4464-8e52-0a3b4270b8be</id>
+      <masked>false</masked>
+      <name>referenceId</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>c747183e-563a-40c4-b087-5618bb90180f</id>
+      <masked>false</masked>
+      <name>LandingPage</name>
+   </variable>
+</TestCaseEntity>

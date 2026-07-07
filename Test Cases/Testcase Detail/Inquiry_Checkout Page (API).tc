@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Inquiry_Checkout Page (API)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3ce3ac9b-1836-46a0-b3d9-69e459351e2c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c0ebcd99-9844-4b3c-982b-65a89d511175</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9216c83e-a889-4561-be2a-0f23d0fa5efd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>c0ebcd99-9844-4b3c-982b-65a89d511175</id>
+      <masked>false</masked>
+      <name>referenceId</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>9216c83e-a889-4561-be2a-0f23d0fa5efd</id>
+      <masked>false</masked>
+      <name>LandingPage</name>
+   </variable>
+</TestCaseEntity>

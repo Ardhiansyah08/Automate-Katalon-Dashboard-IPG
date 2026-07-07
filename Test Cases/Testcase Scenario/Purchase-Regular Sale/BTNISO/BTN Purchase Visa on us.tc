@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BTN Purchase Visa on us</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bbaf1c30-877f-410b-8c09-01daad59c1e1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d8acc75f-a79d-43b2-8595-b3672db5234a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b9022b91-5799-4616-a27a-1dd8d24ddea0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>04cebd72-ccd2-4da1-8183-2196e1ff336b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>d8acc75f-a79d-43b2-8595-b3672db5234a</id>
+      <masked>false</masked>
+      <name>CurrentTestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>b9022b91-5799-4616-a27a-1dd8d24ddea0</id>
+      <masked>false</masked>
+      <name>referenceId</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>04cebd72-ccd2-4da1-8183-2196e1ff336b</id>
+      <masked>false</masked>
+      <name>LandingPage</name>
+   </variable>
+</TestCaseEntity>

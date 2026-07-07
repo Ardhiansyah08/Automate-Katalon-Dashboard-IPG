@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_BRICARD</name>
+   <tag></tag>
+   <elementGuidId>8c6df0c8-16eb-41bd-a03e-2d0a7bbb9db3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiBox-root.jss686.jss616 > a:nth-of-type(2) > li.MuiListItem-container > div.MuiButtonBase-root.MuiListItem-root.jss612.MuiListItem-gutters.MuiListItem-button.MuiListItem-secondaryAction > div.MuiListItemText-root.MuiListItemText-multiline > p.MuiTypography-root.jss615.MuiTypography-body1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='paper']/ul/div/div[2]/a[2]/li/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>85241531-f62a-49b9-b2f9-bf97ffdbd6a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root jss615 MuiTypography-body1</value>
+      <webElementGuid>d401c290-49cb-4c3c-aab3-f1fdb176de5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>BRICARD</value>
+      <webElementGuid>a7afd3ff-4405-4479-bfb6-259f7a420593</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;paper&quot;)/ul[@class=&quot;MuiList-root jss611 MuiList-padding&quot;]/div[1]/div[@class=&quot;MuiBox-root jss686 jss616&quot;]/a[2]/li[@class=&quot;MuiListItem-container&quot;]/div[@class=&quot;MuiButtonBase-root MuiListItem-root jss612 MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction&quot;]/div[@class=&quot;MuiListItemText-root MuiListItemText-multiline&quot;]/p[@class=&quot;MuiTypography-root jss615 MuiTypography-body1&quot;]</value>
+      <webElementGuid>73b2ab24-82f8-47a3-b08b-d97fc7894f17</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='paper']/ul/div/div[2]/a[2]/li/div/div[2]/p</value>
+      <webElementGuid>5fe47ced-34a2-465d-a3ef-5a36b9b3a830</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Card Payment'])[1]/following::p[3]</value>
+      <webElementGuid>cac51c81-6a08-4eb8-abc0-8fb8dd068d94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Virtual Account'])[1]/following::p[7]</value>
+      <webElementGuid>7d215f3d-f65a-4188-854c-225ea9b960f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QRIS'])[1]/preceding::p[12]</value>
+      <webElementGuid>01ac65dd-9c77-47f2-9aec-d7dbb80b965f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E-wallet'])[1]/preceding::p[14]</value>
+      <webElementGuid>7dee6e23-427f-4882-85f1-a739cdbdbc22</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='BRICARD']/parent::*</value>
+      <webElementGuid>4962c509-4893-4479-bf91-2ae50aa16602</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a[2]/li/div/div[2]/p</value>
+      <webElementGuid>77e83c1e-eab0-47af-b6c3-0080b9b1d97b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'BRICARD' or . = 'BRICARD')]</value>
+      <webElementGuid>02484915-6a97-4b52-86d4-f6ad7644e991</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_0000 0000 0000 0000_1</name>
+   <tag></tag>
+   <elementGuidId>21eb9291-8c9c-4b86-8a8e-2fb41e8cb20c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#cardNumber</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'cardNumber']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>7aee3054-350d-4a35-8668-36cffbd08378</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>5f2fcf91-2f2b-4025-a236-272c4472c5fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>cc-number</value>
+      <webElementGuid>35b137a1-24a7-4963-a9a6-d68b10362070</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>cardNumber</value>
+      <webElementGuid>32f23dba-5b32-4008-b749-6a05788f30a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>cardNumber</value>
+      <webElementGuid>03a0869c-f123-4ca4-b005-d5a8dae1a6d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>0000 0000 0000 0000</value>
+      <webElementGuid>fd6f3cc2-8aae-427a-9fad-f9557d95050d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>c238b2e0-95fe-470c-91fd-84b948d7ad60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Card number</value>
+      <webElementGuid>663ee74d-c245-4995-9772-72f5187cedad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiInputBase-input MuiFilledInput-input MuiInputBase-inputAdornedEnd MuiFilledInput-inputAdornedEnd</value>
+      <webElementGuid>95dd531f-c86b-482c-8560-1b584b184e3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-0ad5711a4791dc997d3fa288f1a32778</value>
+      <webElementGuid>17e8624a-3c0f-42c4-90b0-93c917b47014</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'cardNumber']</value>
+      <webElementGuid>c26cbae6-6654-49ee-9f6b-785f562eeccb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'cardNumber']</value>
+      <webElementGuid>e98a248f-d4c0-4b46-bfb6-f15c92db5754</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'cardNumber' and @name = 'cardNumber' and @placeholder = '0000 0000 0000 0000' and @type = 'tel']</value>
+      <webElementGuid>042eefbb-c3ef-4eef-ba97-e0e4f4f324ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
