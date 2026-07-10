@@ -46,7 +46,7 @@ WS.verifyResponseStatusCode(responseToken, 200)
 String myToken = WS.getElementPropertyValue(responseToken, 'access_token')
 println("Token yang didapat: " + myToken)
 
-int currentCounter = new Random().nextInt(1000)
+String currentCounter = System.currentTimeMillis().toString() + new Random(). nextInt (10000)
 RequestObject reqInquiry = findTestObject('Postman/Inquiry_Checkout Page', [
 	('accessToken') : myToken,
 	('counter') : currentCounter.toString()
@@ -144,9 +144,12 @@ runLandingValue.setText(GlobalVariable.LandingPage)
 runLandingValue.addBreak() // Memberikan 'enter' setelah isi variabel dicetak
 
 String projectDir = RunConfiguration.getProjectDir()
+String wordPath = path_dokumen
 //String wordPath = "E:\\Yokke\\Automation\\Evidence\\Evidence_Sale IPG_MTIISO.docx"
+println("Evidence sudah dibuat : " + wordPath)
 
 FileOutputStream out = new FileOutputStream(wordPath)
 document.write(out)
 out.close()
 //document.close()
+println("Evidence sudah dibuat : " + wordPath)

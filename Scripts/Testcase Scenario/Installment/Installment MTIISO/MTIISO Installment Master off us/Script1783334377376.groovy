@@ -20,10 +20,18 @@ import com.kms.katalon.core.model.FailureHandling
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.testdata.TestDataFactory
 import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.configuration.RunConfiguration
 
 String currentTCName = GlobalVariable.CurrentTestCaseName
-String wordPath = "E:\\Yokke\\Automation\\Evidence\\" + currentTCName + ".docx"
+String projectDir = RunConfiguration.getProjectDir()
+String evidenceDirPath = projectDir + File.separator + "Evidence"
 
+File folder = new File(evidenceDirPath)
+if (!folder.exists()) {
+	folder.mkdirs()
+}
+
+String wordPath = evidenceDirPath + File.separator + currentTCName + ".docx"
 def data = TestDataFactory.findTestData('Data Files/Test Case Automate') 
 
 int targetRow = -1
@@ -48,12 +56,11 @@ String CVV = data.getValue('CVV', targetRow)
 String Tenor = data.getValue('Tenor', targetRow)
 
 // 2. Panggil API dan lempar path Word-nya agar API bisa menulis evidence di file yang sama
-WebUI.callTestCase(findTestCase('Testcase Detail/Inquiry_Checkout Page (API)'), [
-	('wordPath') : wordPath
-])
+WebUI.callTestCase(findTestCase('Testcase Detail/Inquiry_Checkout Page (API)'), [('path_dokumen') : wordPath], FailureHandling.STOP_ON_FAILURE)
 
 // 3. Panggil Landing Page dan lempar data kartu beserta path Word-nya
-WebUI.callTestCase(findTestCase('Testcase Detail/Installment MTIISO'), [
+WebUI.callTestCase(findTestCase('Testcase Detail/Installment/Installment MTIISO'), [
+	('path_dokumen') : wordPath,
 	('Name') 	 : Name,
 	('CardData') : CardData,
 	('Expired')  : Expired,

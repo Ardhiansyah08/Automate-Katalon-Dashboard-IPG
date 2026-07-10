@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Landing Page CYBISO</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f6737107-2f06-4960-9daf-02b208c14d87</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c8dfde0-6cac-4597-9d3c-93f50d45d1c9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c9eec95b-154c-47e3-b413-5ffa33948e83</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>4c8dfde0-6cac-4597-9d3c-93f50d45d1c9</id>
+      <masked>false</masked>
+      <name>LandingPage</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c9eec95b-154c-47e3-b413-5ffa33948e83</id>
+      <masked>false</masked>
+      <name>path_dokumen</name>
+   </variable>
+</TestCaseEntity>

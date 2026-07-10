@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Mohon Ditunggu</name>
+   <tag></tag>
+   <elementGuidId>21a8b040-5753-43f5-8caa-643b39de24d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='loadingComp']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#loadingComp</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3c65be8f-b751-49c9-a996-65d43dbfc404</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiBox-root jss2753</value>
+      <webElementGuid>96aa9f7e-accb-4934-8eca-d210028957a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>loadingComp</value>
+      <webElementGuid>a0a8850b-4e7b-4b98-8355-981a6389f246</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mohon Ditunggu..</value>
+      <webElementGuid>e984fd51-8a19-412c-89ca-bda4e62c44cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;loadingComp&quot;)</value>
+      <webElementGuid>40085cd1-b7d7-422c-8a3f-027fdb0f58da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='loadingComp']</value>
+      <webElementGuid>2454c2a2-5f7b-4341-8425-58a9224d4c46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='box']/div[2]/div[2]</value>
+      <webElementGuid>f8e06534-210b-4c3c-9bbb-20b9e99fd21b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bayar Dengan Debit / Credit Mandiri'])[1]/following::div[5]</value>
+      <webElementGuid>199dbae5-4523-40ba-be4e-2ed7d83f6112</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LEKASEHAT1'])[1]/preceding::div[3]</value>
+      <webElementGuid>b7378e4a-ba78-484d-8dcd-9bbf47d8f4a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Expiration Time'])[1]/preceding::div[12]</value>
+      <webElementGuid>d5964ea7-b148-4d27-8d66-76d41d8d74d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]</value>
+      <webElementGuid>4083bc56-0021-4086-8b4d-581537a3ecc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'loadingComp' and (text() = 'Mohon Ditunggu..' or . = 'Mohon Ditunggu..')]</value>
+      <webElementGuid>f00ee81e-817a-4af7-b35e-b4ba6dd3ff00</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
