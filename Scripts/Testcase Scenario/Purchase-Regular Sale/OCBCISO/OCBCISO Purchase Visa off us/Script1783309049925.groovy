@@ -22,7 +22,7 @@ import com.kms.katalon.core.testdata.TestDataFactory
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.configuration.RunConfiguration
 
-String currentTCName = GlobalVariable.CurrentTestCaseName
+String currentTCName = GlobalVariable.TestCaseName
 String projectDir = RunConfiguration.getProjectDir()
 String evidenceDirPath = projectDir + File.separator + "Evidence"
 
@@ -54,10 +54,10 @@ String Expired = data.getValue('Expired Card', targetRow)
 String CVV = data.getValue('CVV', targetRow)
 
 // 2. Panggil API dan lempar path Word-nya agar API bisa menulis evidence di file yang sama
-WebUI.callTestCase(findTestCase('Testcase Detail/Inquiry_Checkout Page (API)'), [('path_dokumen') : wordPath], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Testcase Detail/One Flow/Inquiry_Checkout Page (API)'), [('path_dokumen') : wordPath], FailureHandling.STOP_ON_FAILURE)
 
 // 3. Panggil Landing Page dan lempar data kartu beserta path Word-nya
-WebUI.callTestCase(findTestCase('Testcase Detail/Sale Regular/Landing Page OCBCISO'), [
+WebUI.callTestCase(findTestCase('Testcase Detail/Sale/Landing Page OCBCISO'), [
 	('path_dokumen') : wordPath,
 	('Name') 	 : Name,
 	('CardData') : CardData,

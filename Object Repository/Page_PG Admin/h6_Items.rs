@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h6_Items</name>
+   <tag></tag>
+   <elementGuidId>c6e035c1-a377-4988-ba68-33ad02ac1c66</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div[2]/div/div/div/div/div/table/tbody/tr[2]/td/div/div[4]/div[3]/h6</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h6.MuiTypography-root.jss114.MuiTypography-subtitle2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h6</value>
+      <webElementGuid>574b604d-0cff-4280-92d4-7410c2872d6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root jss114 MuiTypography-subtitle2</value>
+      <webElementGuid>9b7ffe4c-2e7a-4818-82ab-0d3bed97cbef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Items</value>
+      <webElementGuid>4a8f7f0a-063a-48d0-8597-bd7555b6879a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;jss38&quot;]/div[@class=&quot;jss39&quot;]/main[@class=&quot;jss41&quot;]/div[1]/div[1]/div[@class=&quot;MuiBox-root jss105 jss80&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation2 MuiPaper-rounded&quot;]/div[@class=&quot;jss110&quot;]/div[1]/div[1]/div[1]/table[@class=&quot;MuiTable-root&quot;]/tbody[@class=&quot;MuiTableBody-root&quot;]/tr[@class=&quot;MuiTableRow-root&quot;]/td[@class=&quot;MuiTableCell-root MuiTableCell-body MuiTableCell-paddingNone&quot;]/div[@class=&quot;MuiBox-root jss115&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12&quot;]/h6[@class=&quot;MuiTypography-root jss114 MuiTypography-subtitle2&quot;]</value>
+      <webElementGuid>975bb7a4-3925-4008-bae5-b8003df8094e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div[2]/div/div/div/div/div/table/tbody/tr[2]/td/div/div[4]/div[3]/h6</value>
+      <webElementGuid>d29a308a-7d3e-4bb6-9c2d-fbefe3048012</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='tokenOption'])[1]/following::h6[1]</value>
+      <webElementGuid>b8018804-2f61-44bb-837c-279b87690420</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='id'])[3]/following::h6[1]</value>
+      <webElementGuid>f825d151-4e19-44fe-9bb9-f987d198d0ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='name'])[1]/preceding::h6[1]</value>
+      <webElementGuid>617788d6-a8a9-4f50-b9b8-175640539461</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='quantity'])[1]/preceding::h6[1]</value>
+      <webElementGuid>2176b181-c85e-4ac3-a7cc-8a7a068b4de3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Items']/parent::*</value>
+      <webElementGuid>d721a8e0-aceb-4b9f-8021-358c550231f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/h6</value>
+      <webElementGuid>8f3ab0ab-96d7-4bab-832e-4f4b4919992b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h6[(text() = 'Items' or . = 'Items')]</value>
+      <webElementGuid>797c0740-9b92-4a3b-b0cc-05715155036f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

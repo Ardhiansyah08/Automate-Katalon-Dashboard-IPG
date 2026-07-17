@@ -37,7 +37,7 @@ class DataListener {
 		String[] parts = fullPath.split('/')
 		String tcName = parts[parts.length - 1]
 
-		GlobalVariable.CurrentTestCaseName = tcName
+		GlobalVariable.TestCaseName = tcName
 		println(">>> Test Listener: Menangkap nama Test Case = " + tcName)
 	}
 }

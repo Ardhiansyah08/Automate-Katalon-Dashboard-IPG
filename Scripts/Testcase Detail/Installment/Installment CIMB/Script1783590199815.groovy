@@ -79,6 +79,7 @@ switch (Tenor) {
 WebUI.takeScreenshot(SS1)
 WebUI.delay(1)
 WebUI.click(findTestObject('Nav/Page_Yokke/span_Pay now_1'))
+WebUI.executeJavaScript("window.scrollTo(0, 0);", null)
 while ((System.currentTimeMillis() - startTime) < maxWaitTimeMs) {
 
 	boolean Loading =  WebUI.waitForElementVisible(findTestObject('Object Repository/Nav/div_Mohon Ditunggu'), 1, FailureHandling.OPTIONAL)

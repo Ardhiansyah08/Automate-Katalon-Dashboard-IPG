@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Sign in</name>
+   <tag></tag>
+   <elementGuidId>cc7e2fd8-0c37-4b8f-9647-e1a2cb545c84</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.MuiButton-label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/main/div/div/div/form/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>13354e1a-63fe-4530-80eb-f7921b432207</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiButton-label</value>
+      <webElementGuid>a21f0a07-cad8-4623-ad7b-e0afa4b79e3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign in</value>
+      <webElementGuid>fe997ad8-52d8-4e42-9350-2749d13d1cb9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/main[@class=&quot;jss1&quot;]/div[@class=&quot;MuiBox-root jss11 jss2&quot;]/div[@class=&quot;MuiPaper-root MuiCard-root jss3 MuiPaper-elevation3 MuiPaper-rounded&quot;]/div[@class=&quot;MuiCardContent-root jss4&quot;]/form[@class=&quot;jss12 jss7&quot;]/button[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-contained jss14 MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge&quot;]/span[@class=&quot;MuiButton-label&quot;]</value>
+      <webElementGuid>be7952dc-63fb-4276-b98e-97e30df7dfbc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/main/div/div/div/form/button/span</value>
+      <webElementGuid>c200af3f-b591-411a-9509-df59b1f31746</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember on my device'])[1]/following::span[1]</value>
+      <webElementGuid>1ea4102e-9328-4e00-b1be-0e383bc1e330</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[2]/following::span[5]</value>
+      <webElementGuid>fd55b0bb-beae-4de9-8433-0e0870e1abf7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot password?'])[1]/preceding::span[3]</value>
+      <webElementGuid>fb4cb5a1-c52f-4dcf-b61c-d7e7141391bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>bc159d2f-99f1-4556-bca4-34ff5fa15215</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Sign in' or . = 'Sign in')]</value>
+      <webElementGuid>1f17e397-59dc-4524-bb53-4ebebce57101</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_currency</name>
+   <tag></tag>
+   <elementGuidId>2a20b547-6501-47b5-9853-0f20634686d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div[2]/div/div/div/div/div/table/tbody/tr[2]/td/div/div[3]/div[5]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiBox-root.jss148 > span.MuiTypography-root.MuiTypography-caption</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2e1c60fb-01af-4ed5-8547-ca3db929dbcb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-caption</value>
+      <webElementGuid>c23899a2-d29c-4485-b7e5-bf46cea9da14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>currency</value>
+      <webElementGuid>efb47c75-189c-45e3-b81c-cb6d53981f08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;jss38&quot;]/div[@class=&quot;jss39&quot;]/main[@class=&quot;jss41&quot;]/div[1]/div[1]/div[@class=&quot;MuiBox-root jss105 jss80&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation2 MuiPaper-rounded&quot;]/div[@class=&quot;jss110&quot;]/div[1]/div[1]/div[1]/table[@class=&quot;MuiTable-root&quot;]/tbody[@class=&quot;MuiTableBody-root&quot;]/tr[@class=&quot;MuiTableRow-root&quot;]/td[@class=&quot;MuiTableCell-root MuiTableCell-body MuiTableCell-paddingNone&quot;]/div[@class=&quot;MuiBox-root jss115&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4&quot;]/div[@class=&quot;MuiBox-root jss148&quot;]/span[@class=&quot;MuiTypography-root MuiTypography-caption&quot;]</value>
+      <webElementGuid>38bf3d7d-2409-435f-a3de-8dba88a932c2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div[2]/div/div/div/div/div/table/tbody/tr[2]/td/div/div[3]/div[5]/div/span</value>
+      <webElementGuid>98a6e7c3-fdff-41c4-a98d-88c73735ec8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='expirationTime'])[1]/following::span[1]</value>
+      <webElementGuid>d446e677-f632-4e93-9903-39e006ba1b5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='updatedTime'])[2]/following::span[2]</value>
+      <webElementGuid>e9840f7b-6aa2-403e-83d7-6a49fd89fe02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='amount'])[2]/preceding::span[1]</value>
+      <webElementGuid>3a22a96c-e8b2-4eee-8e67-cea043d5989c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='lockedAmount'])[1]/preceding::span[2]</value>
+      <webElementGuid>d98ba232-afd8-4412-b064-2a45de9e09d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[5]/div/span</value>
+      <webElementGuid>deb6f50d-fcfc-4756-99f9-20d5c2147ef9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'currency' or . = 'currency')]</value>
+      <webElementGuid>e9f9bbf1-038e-4652-8f56-8f11e1e1924b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

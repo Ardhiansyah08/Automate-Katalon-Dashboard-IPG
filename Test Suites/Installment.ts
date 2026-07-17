@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Installment</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>17120580-342a-4722-9241-b5e6b6b7bdf7</testSuiteGuid>
+   <testCaseLink>
+      <guid>c747e690-af1f-453f-9ffb-109ffe25f042</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Testcase Scenario/Installment Landing Page</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d96a61e8-5874-4a98-88ee-f04834745f3f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Installment</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dd769fb4-eff5-4d7d-86d1-13a0d8744af3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>34608302-78cc-4b02-917b-0295146c296e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5763a7ca-9a07-4a10-bce8-36d2cbb86c6a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d96a61e8-5874-4a98-88ee-f04834745f3f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Test Case</value>
+         <variableId>43db7a19-439c-4db7-991c-f6cff2c72196</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d96a61e8-5874-4a98-88ee-f04834745f3f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CVV</value>
+         <variableId>68172bbe-c0ff-4b08-a63e-7da471baafb3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d96a61e8-5874-4a98-88ee-f04834745f3f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Expired</value>
+         <variableId>56e8015a-4dec-4264-a962-ea60459ae6c3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d96a61e8-5874-4a98-88ee-f04834745f3f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Data Kartu</value>
+         <variableId>bc318eb6-772f-4cf5-8ef1-df0a47123cce</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d96a61e8-5874-4a98-88ee-f04834745f3f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Name</value>
+         <variableId>f6b2e4bd-2912-4094-9edc-af11c15b16af</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d96a61e8-5874-4a98-88ee-f04834745f3f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Tenor</value>
+         <variableId>752154c7-32a8-49a9-b24d-56b908d328d3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d96a61e8-5874-4a98-88ee-f04834745f3f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Brand</value>
+         <variableId>8aab5519-db95-4cd6-b3e6-e838e18baf4b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d96a61e8-5874-4a98-88ee-f04834745f3f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Member Bank</value>
+         <variableId>b5aa17fc-909e-4678-9e72-2791ebc75f47</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

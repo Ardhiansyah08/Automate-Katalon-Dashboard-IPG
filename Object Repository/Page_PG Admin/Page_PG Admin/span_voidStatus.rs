@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_voidStatus</name>
+   <tag></tag>
+   <elementGuidId>c2fdc104-d059-4d30-b4ff-0e269d28ce3e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div/div[2]/div/div/div/div/div/table/tbody/tr[2]/td/div/div[2]/div[14]/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiBox-root.jss131 > span.MuiTypography-root.MuiTypography-caption</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4e27e523-ccc5-4c6d-84ee-ccfd789c7646</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiTypography-caption</value>
+      <webElementGuid>b2f0f04b-618f-40d1-8c21-dcef610533f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>voidStatus</value>
+      <webElementGuid>da80b024-c354-48c3-8b87-cb03757edea6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;jss38&quot;]/div[@class=&quot;jss39&quot;]/main[@class=&quot;jss41&quot;]/div[1]/div[1]/div[@class=&quot;MuiBox-root jss105 jss80&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation2 MuiPaper-rounded&quot;]/div[@class=&quot;jss110&quot;]/div[1]/div[1]/div[1]/table[@class=&quot;MuiTable-root&quot;]/tbody[@class=&quot;MuiTableBody-root&quot;]/tr[@class=&quot;MuiTableRow-root&quot;]/td[@class=&quot;MuiTableCell-root MuiTableCell-body MuiTableCell-paddingNone&quot;]/div[@class=&quot;MuiBox-root jss115&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4&quot;]/div[@class=&quot;MuiBox-root jss131&quot;]/span[@class=&quot;MuiTypography-root MuiTypography-caption&quot;]</value>
+      <webElementGuid>ea5329d9-0227-4c0e-bf56-07c3c5262578</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div/div[2]/div/div/div/div/div/table/tbody/tr[2]/td/div/div[2]/div[14]/div/span</value>
+      <webElementGuid>c5facf16-7570-4f53-b518-3643862dc34c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='networkReferenceId'])[1]/following::span[1]</value>
+      <webElementGuid>6ebec53d-ed65-4614-8488-c74ffba0e0bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='statusData'])[1]/following::span[2]</value>
+      <webElementGuid>eb3ebd0c-ebdb-4916-8b15-7c97c14c67ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='settlementId'])[1]/preceding::span[1]</value>
+      <webElementGuid>d7ac8a9c-419d-4a1a-8c86-4e2449a8aab7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='settlementAmount'])[1]/preceding::span[2]</value>
+      <webElementGuid>afe206c8-779a-42b1-bc04-1a4c4c965ce1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='voidStatus']/parent::*</value>
+      <webElementGuid>ba049976-aa24-481a-8697-3eb2b57fd7db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[14]/div/span</value>
+      <webElementGuid>ba6941eb-6de2-4e02-86eb-1d9f14ba3a33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'voidStatus' or . = 'voidStatus')]</value>
+      <webElementGuid>bf112f9b-89b3-4099-847a-4f95a82e056d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

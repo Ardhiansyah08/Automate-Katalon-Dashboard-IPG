@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b3fa74df-7035-4370-ad01-c1bea419eab7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>46397602-a65f-4e15-81a7-b35fc7d6ef7e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>af2bcc31-1c15-470a-b05f-fdc7533145cb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'LandingPage-17839990307193436'</defaultValue>
+      <description></description>
+      <id>46397602-a65f-4e15-81a7-b35fc7d6ef7e</id>
+      <masked>false</masked>
+      <name>referenceId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>af2bcc31-1c15-470a-b05f-fdc7533145cb</id>
+      <masked>false</masked>
+      <name>WebPgAdmin</name>
+   </variable>
+</TestCaseEntity>

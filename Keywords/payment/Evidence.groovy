@@ -68,6 +68,27 @@ public class Evidence {
 		runHasilValue.addPicture(is2, XWPFDocument.PICTURE_TYPE_PNG, SS2_Path, Units.toEMU(500), Units.toEMU(230))
 		is2.close()
 		
+//		XWPFRun runAdminLabel = paragraph.createRun()
+//		runAdminLabel.addBreak()
+//		runAdminLabel.setBold(true)
+//		runAdminLabel.setFontSize(12)
+//		runAdminLabel.setText("Admin")
+//		runAdminLabel.addBreak()
+//		
+//		XWPFRun runMaasLabel = paragraph.createRun()
+//		runMaasLabel.addBreak()
+//		runMaasLabel.setBold(true)
+//		runMaasLabel.setFontSize(12)
+//		runMaasLabel.setText("Maas")
+//		runMaasLabel.addBreak()
+//		
+//		XWPFRun runFEPLabel = paragraph.createRun()
+//		runFEPLabel.addBreak()
+//		runFEPLabel.setBold(true)
+//		runFEPLabel.setFontSize(12)
+//		runFEPLabel.setText("FEP")
+//		runFEPLabel.addBreak()
+//		
 		FileOutputStream out = new FileOutputStream(wordPath)
 		document.write(out)
 		out.close()
