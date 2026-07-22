@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MTIISO Purchase Master off us</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1fb78d21-46f4-478e-9c8f-dbce9c970588</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bd8f20fe-8aef-458b-9a51-bad869978914</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c7d45d3-a1e3-48d4-9cf0-de1982231382</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d61aeb0f-8094-47f7-9674-81518b9a959f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>bd8f20fe-8aef-458b-9a51-bad869978914</id>
+      <masked>false</masked>
+      <name>LandingPage</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>0c7d45d3-a1e3-48d4-9cf0-de1982231382</id>
+      <masked>false</masked>
+      <name>CurrentTestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>d61aeb0f-8094-47f7-9674-81518b9a959f</id>
+      <masked>false</masked>
+      <name>referenceId</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search Data Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1899249d-f1ff-48ea-ac91-178519a72885</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>86505781-aaff-48df-9623-65f2401fbd64</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1f47dd98-c29f-4a25-905a-93ef7e61eabf</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>86505781-aaff-48df-9623-65f2401fbd64</id>
+      <masked>false</masked>
+      <name>WebPgAdmin</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>1f47dd98-c29f-4a25-905a-93ef7e61eabf</id>
+      <masked>false</masked>
+      <name>referenceId</name>
+   </variable>
+</TestCaseEntity>

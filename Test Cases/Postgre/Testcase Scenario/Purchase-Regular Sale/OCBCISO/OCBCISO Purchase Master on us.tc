@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OCBCISO Purchase Master on us</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b982ea88-aa41-4488-998e-e8d7b922a3c0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>524ebd55-4ede-4397-9d26-2b93fab6c9ae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>387dd809-267a-4b82-ba5d-4387b480f18b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d91c7fce-eaf1-4f10-8046-c572094fee96</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>524ebd55-4ede-4397-9d26-2b93fab6c9ae</id>
+      <masked>false</masked>
+      <name>LandingPage</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>387dd809-267a-4b82-ba5d-4387b480f18b</id>
+      <masked>false</masked>
+      <name>CurrentTestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>d91c7fce-eaf1-4f10-8046-c572094fee96</id>
+      <masked>false</masked>
+      <name>referenceId</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Incorrect Usr n Pw</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>849c0a68-ac1c-41dc-9dfd-b6c743c0b5fe</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d53ac13-b01a-4e0a-bf93-4354e6b4d096</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>29d8f489-f265-406f-bef0-9473aadd0eaa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'LandingPage-17839990307193436'</defaultValue>
+      <description></description>
+      <id>7d53ac13-b01a-4e0a-bf93-4354e6b4d096</id>
+      <masked>false</masked>
+      <name>referenceId</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>29d8f489-f265-406f-bef0-9473aadd0eaa</id>
+      <masked>false</masked>
+      <name>currentTestCaseName</name>
+   </variable>
+</TestCaseEntity>

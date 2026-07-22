@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Usr tidak diinput</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c69db514-2acf-4097-95cc-870b943c2bc6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e15f14ff-bc64-4bb3-a210-2e558c4a5a9c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2e8ccaba-0cf1-4e8c-97d7-823e91e5ca56</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'LandingPage-17839990307193436'</defaultValue>
+      <description></description>
+      <id>e15f14ff-bc64-4bb3-a210-2e558c4a5a9c</id>
+      <masked>false</masked>
+      <name>referenceId</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>2e8ccaba-0cf1-4e8c-97d7-823e91e5ca56</id>
+      <masked>false</masked>
+      <name>currentTestCaseName</name>
+   </variable>
+</TestCaseEntity>

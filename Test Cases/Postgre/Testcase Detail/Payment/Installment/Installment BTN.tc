@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Installment BTN</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e16fe142-1a2a-4403-962f-bd447ac19bfc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>85905333-0a7b-47c6-8b35-ff5d00a68212</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e6344344-faf8-4830-aed1-bd51883dfd4c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>85905333-0a7b-47c6-8b35-ff5d00a68212</id>
+      <masked>false</masked>
+      <name>LandingPage</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e6344344-faf8-4830-aed1-bd51883dfd4c</id>
+      <masked>false</masked>
+      <name>path_dokumen</name>
+   </variable>
+</TestCaseEntity>

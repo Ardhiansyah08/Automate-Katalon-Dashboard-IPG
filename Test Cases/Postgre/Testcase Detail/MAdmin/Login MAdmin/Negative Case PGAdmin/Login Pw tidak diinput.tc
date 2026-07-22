@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login Pw tidak diinput</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4020c16e-15f2-4207-bd44-659cb8afaa10</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6902b6f0-0c43-4aa3-910c-d6f7cc8190bf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>103f2e96-a80a-4645-94d0-39b1c9df1161</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'LandingPage-17839990307193436'</defaultValue>
+      <description></description>
+      <id>6902b6f0-0c43-4aa3-910c-d6f7cc8190bf</id>
+      <masked>false</masked>
+      <name>referenceId</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>103f2e96-a80a-4645-94d0-39b1c9df1161</id>
+      <masked>false</masked>
+      <name>currentTestCaseName</name>
+   </variable>
+</TestCaseEntity>

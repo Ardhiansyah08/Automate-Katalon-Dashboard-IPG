@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Forgot password</name>
+   <tag></tag>
+   <elementGuidId>5dfe896c-2469-4acf-b434-914ab8e0b942</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.MuiTypography-root.MuiLink-root.MuiLink-underlineAlways.MuiTypography-subtitle2.MuiTypography-colorTextPrimary.MuiTypography-alignCenter</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/main/div/div/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>32cb3597-fd0b-4351-90ad-4fceff52b8fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTypography-root MuiLink-root MuiLink-underlineAlways MuiTypography-subtitle2 MuiTypography-colorTextPrimary MuiTypography-alignCenter</value>
+      <webElementGuid>2fe9efac-b4c7-45bf-9ba4-7bb9e62f8a4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/auth/forget</value>
+      <webElementGuid>e756a87f-2714-49ac-a05b-03a9a7db0519</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Forgot password?</value>
+      <webElementGuid>ca2a2c8a-78e2-440d-b205-8ceda9dba184</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/main[@class=&quot;jss1&quot;]/div[@class=&quot;MuiBox-root jss11 jss2&quot;]/div[@class=&quot;MuiPaper-root MuiCard-root jss3 MuiPaper-elevation3 MuiPaper-rounded&quot;]/div[@class=&quot;MuiCardContent-root jss4&quot;]/a[@class=&quot;MuiTypography-root MuiLink-root MuiLink-underlineAlways MuiTypography-subtitle2 MuiTypography-colorTextPrimary MuiTypography-alignCenter&quot;]</value>
+      <webElementGuid>873ea30f-586b-48c6-9998-ca5d22286145</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/main/div/div/div/a</value>
+      <webElementGuid>1f345cdb-3ab7-4542-ba4a-b7def3ee793c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Forgot password?')]</value>
+      <webElementGuid>308f1fd3-cf2b-43ad-9754-e833986b7b25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::a[1]</value>
+      <webElementGuid>88dfcce8-d2dc-4679-9776-964ea568f45d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember on my device'])[1]/following::a[1]</value>
+      <webElementGuid>2f3fc6b9-a622-42d3-90ba-bbfee36cc1ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Forgot password?']/parent::*</value>
+      <webElementGuid>c5d19a7e-1d31-4781-8c8e-080ed4972e06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/auth/forget')]</value>
+      <webElementGuid>142f0e09-6719-4a60-b2f9-f156ca02f575</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>777e67ae-b2f5-423d-b689-716209abf4e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/auth/forget' and (text() = 'Forgot password?' or . = 'Forgot password?')]</value>
+      <webElementGuid>5a522d57-3153-400f-ae4e-77875903815e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

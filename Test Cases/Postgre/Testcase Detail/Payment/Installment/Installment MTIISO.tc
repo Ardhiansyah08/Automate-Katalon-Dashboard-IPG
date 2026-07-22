@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Installment MTIISO</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9e2f4a4b-cd49-4b0e-acab-66aa8e10a270</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>211bb155-e183-41c5-b8d1-e8aacdcb6011</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5c79c7ca-3e46-4655-9987-d8fe9c59fbde</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>211bb155-e183-41c5-b8d1-e8aacdcb6011</id>
+      <masked>false</masked>
+      <name>LandingPage</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5c79c7ca-3e46-4655-9987-d8fe9c59fbde</id>
+      <masked>false</masked>
+      <name>path_dokumen</name>
+   </variable>
+</TestCaseEntity>

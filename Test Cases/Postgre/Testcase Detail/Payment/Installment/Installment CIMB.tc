@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Installment CIMB</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fef0dc24-469d-47ae-ac65-d28cfdf913bb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dc2f97e5-d8df-4cce-bede-8a2269d49165</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a92f87e1-6d5a-48ed-9b5f-630cdb4c7418</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.null</defaultValue>
+      <description></description>
+      <id>dc2f97e5-d8df-4cce-bede-8a2269d49165</id>
+      <masked>false</masked>
+      <name>LandingPage</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a92f87e1-6d5a-48ed-9b5f-630cdb4c7418</id>
+      <masked>false</masked>
+      <name>path_dokumen</name>
+   </variable>
+</TestCaseEntity>

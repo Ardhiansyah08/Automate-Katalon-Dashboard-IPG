@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Page Down</name>
+   <tag></tag>
+   <elementGuidId>6409758c-12e7-497d-bf55-70981fb11703</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.MuiTablePagination-actions</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/main/div/div[2]/div[3]/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5f496e46-4a4d-4bed-850a-b771be7b4efd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiTablePagination-actions</value>
+      <webElementGuid>3983c052-6f7e-4001-bd0c-54feff64a77f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;jss38&quot;]/div[@class=&quot;jss39&quot;]/main[@class=&quot;jss41&quot;]/div[1]/div[@class=&quot;MuiPaper-root MuiCard-root jss79 MuiPaper-elevation1 MuiPaper-rounded&quot;]/div[@class=&quot;MuiTablePagination-root&quot;]/div[@class=&quot;MuiToolbar-root MuiToolbar-regular MuiTablePagination-toolbar MuiToolbar-gutters&quot;]/div[@class=&quot;MuiTablePagination-actions&quot;]</value>
+      <webElementGuid>dbf3ebf4-e067-410d-9c7a-5ced2af2d781</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/main/div/div[2]/div[3]/div/div[3]</value>
+      <webElementGuid>89399337-7185-4656-99e4-ed8a2f3d1e8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IDR 0 / 1.000.000.001'])[30]/following::div[6]</value>
+      <webElementGuid>966526e9-27e2-407c-ba7c-cd915832f728</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IDR 0 / 100.000.001'])[42]/following::div[6]</value>
+      <webElementGuid>d35c8c0e-184b-489b-9df9-b4f38c1d949a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[3]</value>
+      <webElementGuid>7eef71c6-7e72-4574-9666-b2268d6c0615</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
