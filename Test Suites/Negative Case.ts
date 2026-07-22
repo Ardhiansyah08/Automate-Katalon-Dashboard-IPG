@@ -15,7 +15,7 @@
       <guid>0cc81f6e-e992-484a-b05e-5f9e7b6a2d43</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Testcase Scenario/Negative Case Payment/Sale Invalid Exp Date</testCaseId>
+      <testCaseId>Test Cases/Postgre/Testcase Scenario/Negative Case Payment/Sale Invalid Exp Date</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -82,7 +82,7 @@
       <guid>6c7880f6-2db1-491f-a094-da678b3fda61</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Testcase Scenario/Negative Case Payment/Sale Invalid CVV</testCaseId>
+      <testCaseId>Test Cases/Postgre/Testcase Scenario/Negative Case Payment/Sale Invalid CVV</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -149,7 +149,7 @@
       <guid>1428eb2d-389b-40fb-89f0-a56f530bd0f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Testcase Scenario/Negative Case Payment/Sale Incorrect Card</testCaseId>
+      <testCaseId>Test Cases/Postgre/Testcase Scenario/Negative Case Payment/Sale Incorrect Card</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -15,7 +15,7 @@
       <guid>f3fb4a5c-325a-48db-afa4-f223e3cbebef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Testcase Scenario/Sale Landing Page</testCaseId>
+      <testCaseId>Test Cases/Postgre/Testcase Scenario/Payment Normal/Sale Landing Page</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6df7fa54-f217-42e5-8299-71d653baf3ea</id>
