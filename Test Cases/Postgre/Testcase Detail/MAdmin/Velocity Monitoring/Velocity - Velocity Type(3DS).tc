@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Velocity - Velocity Type(3DS)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a5301ae3-30b3-4696-b27e-746bbc5b44f2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eea4565d-9b99-448e-bd82-c801249ce016</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>11e2af0e-1d87-44e9-8cdc-9a1a6727e872</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'LandingPage-17839990307193436'</defaultValue>
+      <description></description>
+      <id>eea4565d-9b99-448e-bd82-c801249ce016</id>
+      <masked>false</masked>
+      <name>referenceId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>11e2af0e-1d87-44e9-8cdc-9a1a6727e872</id>
+      <masked>false</masked>
+      <name>WebPgAdmin</name>
+   </variable>
+</TestCaseEntity>

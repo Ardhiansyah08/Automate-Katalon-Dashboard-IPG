@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Velocity - Velocity Type(API Burst)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6f096547-87e2-42c6-934b-c622f686ad7a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ed6bf1a0-a23f-4886-b3ad-f2f71b82d395</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>923c544f-2479-4b5b-8df0-e67c4be27ecc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'LandingPage-17839990307193436'</defaultValue>
+      <description></description>
+      <id>ed6bf1a0-a23f-4886-b3ad-f2f71b82d395</id>
+      <masked>false</masked>
+      <name>referenceId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>923c544f-2479-4b5b-8df0-e67c4be27ecc</id>
+      <masked>false</masked>
+      <name>WebPgAdmin</name>
+   </variable>
+</TestCaseEntity>

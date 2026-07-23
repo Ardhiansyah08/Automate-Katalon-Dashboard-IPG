@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Velocity - Velocity Type(Maximum PAN velocity)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6eaf2bce-f7de-49da-ad5d-5d9f984b0200</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9130242e-fad6-46e7-9d4f-3e1f87c71de3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>94629197-3540-4a12-9a43-187de9e00763</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'LandingPage-17839990307193436'</defaultValue>
+      <description></description>
+      <id>9130242e-fad6-46e7-9d4f-3e1f87c71de3</id>
+      <masked>false</masked>
+      <name>referenceId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>94629197-3540-4a12-9a43-187de9e00763</id>
+      <masked>false</masked>
+      <name>WebPgAdmin</name>
+   </variable>
+</TestCaseEntity>

@@ -27,10 +27,29 @@ class Login_MAdmin {
 	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
-	@BeforeTestCase
-	def BeforeTestCase(TestCaseContext testCaseContext) {
+	@BeforeTestSuite
+	def BeforeTestSuite(TestCaseContext testCaseContext) {
+		
+		long maxWaitTimeMs = 100000
+		long startTime = System.currentTimeMillis()
+		
 		WebUI.openBrowser('')
 		WebUI.authenticate('https://tst.yokke.co.id:8443/', 'mtiipg', 'brankasipg', 10)
 		WebUI.maximizeWindow()
+		
+		while ((System.currentTimeMillis() - startTime) < maxWaitTimeMs) {
+			
+				boolean visible =  WebUI.waitForElementVisible(findTestObject('Object Repository/Page_PG Admin/Page_PG Admin/div_Sign InSign in on the PG platform'), 1, FailureHandling.OPTIONAL)
+				if (visible) {
+					//Login PGAdmin
+					WebUI.setText(findTestObject('Object Repository/Page_PG Admin/input_Username  Email_username'), 'ardhiansyah356@gmail.com')
+					WebUI.setText(findTestObject('Object Repository/Page_PG Admin/input_Password_password'), 'Mti123!@#')
+					WebUI.click(findTestObject('Object Repository/Page_PG Admin/span_Sign in'))
+					break
+						
+				}
+				Thread.sleep(50)
+				println('belum muncul')
+			}
 	}
 }

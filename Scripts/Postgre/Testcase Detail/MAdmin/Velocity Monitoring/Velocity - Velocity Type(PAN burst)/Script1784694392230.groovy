@@ -30,13 +30,12 @@ import org.apache.poi.xwpf.usermodel.XWPFRun
 import org.apache.poi.util.Units
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.interactions.Actions
-import payment.Search_Data
+import payment.Velocity_Monitoring
 
 long maxWaitTimeMs = 100000
 long startTime = System.currentTimeMillis()
 
 String testCaseName = GlobalVariable.currentTestCaseName
-println('cek test case name : ' + testCaseName)
 String projectDir = RunConfiguration.getProjectDir()
 String evidenceDirPath = projectDir + File.separator + "Evidence" + File.separator + "Monitor"
 
@@ -46,6 +45,7 @@ if (!folderMonitor.exists()) {
 }
 
 String wordPath = evidenceDirPath + File.separator + testCaseName + ".docx"
+println("Cek letak evidence : " + wordPath)
 
 document = new XWPFDocument()
 XWPFParagraph paragraph = document.createParagraph()
@@ -53,13 +53,13 @@ XWPFParagraph paragraph = document.createParagraph()
 XWPFRun runTitleValue = paragraph.createRun()
 runTitleValue.setBold(true)
 runTitleValue.setFontSize(12)
-runTitleValue.setText("Menu Monitoring - Merchant")
+runTitleValue.setText("Menu Velocity Monitoring - Velocity Type(PAN burst)")
 runTitleValue.addBreak()
 runTitleValue.setText("--------------------------------------------------")
 runTitleValue.addBreak()
 
-println("Cek letak evidence : " + wordPath)
 String SS1 = projectDir + "/1.png"
+String SS2 = projectDir + "/2.png"
 
 //WebUI.openBrowser('')
 //WebUI.authenticate('https://tst.yokke.co.id:8443/', 'mtiipg', 'brankasipg', 10)
@@ -84,10 +84,12 @@ while ((System.currentTimeMillis() - startTime) < maxWaitTimeMs) {
 	
 	boolean visible2 =  WebUI.waitForElementVisible(findTestObject('Object Repository/While/p_DASHBOARD'), 1, FailureHandling.OPTIONAL)
 	if (visible2) {
-//		Merchant
-		WebUI.click(findTestObject('Object Repository/Monitoring/span_Monitoring'))
-		WebUI.click(findTestObject('Object Repository/Monitoring/svg_Select Merchant_MuiSvgIcon-root'))
-		WebUI.setText(findTestObject('Object Repository/Monitoring/input_Select Merchant_mui-22550'), 'LEKASEHAT1')
+		WebUI.click(findTestObject('Object Repository/Velocity Monitoring/Select Velocity Monitoring'))
+		
+//		TC 48 Panburst
+		WebUI.click(findTestObject('Object Repository/Velocity Monitoring/Dropdown Velocity Type'))
+		WebUI.click(findTestObject('Object Repository/Velocity Monitoring/Select Velocity Type/panburst - PAN Burst'))
+		WebUI.click(findTestObject('Object Repository/Velocity Monitoring/button_Search'))
 		WebUI.takeScreenshot(SS1)
 		break
 	}
@@ -95,13 +97,16 @@ while ((System.currentTimeMillis() - startTime) < maxWaitTimeMs) {
 	println('masih ada otp')
 }
 
-XWPFRun runMerchantValue = paragraph.createRun()
+XWPFRun runMerchTipValue = paragraph.createRun()
+
 FileInputStream is1 = new FileInputStream(SS1)
-runMerchantValue.addPicture(is1, XWPFDocument.PICTURE_TYPE_PNG, SS1, Units.toEMU(500), Units.toEMU(230))
+runMerchTipValue.addPicture(is1, XWPFDocument.PICTURE_TYPE_PNG, SS1, Units.toEMU(500), Units.toEMU(230))
 is1.close()
+
 
 FileOutputStream out = new FileOutputStream(wordPath)
 document.write(out)
 out.close()
 println("Evidence sudah dibuat : " + wordPath)
+
 

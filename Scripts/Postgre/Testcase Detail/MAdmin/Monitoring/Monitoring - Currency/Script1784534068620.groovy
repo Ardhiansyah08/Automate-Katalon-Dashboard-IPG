@@ -34,72 +34,67 @@ long startTime = System.currentTimeMillis()
 
 String testCaseName = GlobalVariable.currentTestCaseName
 String projectDir = RunConfiguration.getProjectDir()
-String evidenceDirPath = projectDir + File.separator + "Evidence"
-println('cek test case name : ' + testCaseName)
+String evidenceDirPath = projectDir + File.separator + "Evidence" + File.separator + "Monitor"
+
+File folderMonitor = new File(evidenceDirPath)
+if (!folderMonitor.exists()) {
+	folderMonitor.mkdirs() 
+}
+
 String wordPath = evidenceDirPath + File.separator + testCaseName + ".docx"
-
 println("Cek letak evidence : " + wordPath)
-String SS1 = projectDir + "/1.png"
-String SS2 = projectDir + "/2.png"
 
-XWPFDocument document = new XWPFDocument()
+document = new XWPFDocument()
 XWPFParagraph paragraph = document.createParagraph()
 
 XWPFRun runTitleValue = paragraph.createRun()
 runTitleValue.setBold(true)
 runTitleValue.setFontSize(12)
-runTitleValue.setText("Monitoring")
+runTitleValue.setText("Menu Monitoring - Currency")
 runTitleValue.addBreak()
 runTitleValue.setText("--------------------------------------------------")
 runTitleValue.addBreak()
 
-WebUI.openBrowser('')
-WebUI.authenticate('https://tst.yokke.co.id:8443/', 'mtiipg', 'brankasipg', 10)
-WebUI.maximizeWindow()
+String SS1 = projectDir + "/1.png"
 
-while ((System.currentTimeMillis() - startTime) < maxWaitTimeMs) {
+//WebUI.openBrowser('')
+//WebUI.authenticate('https://tst.yokke.co.id:8443/', 'mtiipg', 'brankasipg', 10)
+//WebUI.maximizeWindow()
 
-	boolean visible =  WebUI.waitForElementVisible(findTestObject('Object Repository/Page_PG Admin/Page_PG Admin/div_Sign InSign in on the PG platform'), 1, FailureHandling.OPTIONAL)
-	if (visible) {
-		//Login PGAdmin
-		WebUI.setText(findTestObject('Object Repository/Page_PG Admin/input_Username  Email_username'), 'ardhiansyah356@gmail.com')
-		WebUI.setText(findTestObject('Object Repository/Page_PG Admin/input_Password_password'), 'Mti123!@#')
-		WebUI.click(findTestObject('Object Repository/Page_PG Admin/span_Sign in'))
-		break
-			
-	}
-	Thread.sleep(50)
-	println('belum muncul')
-}
+//while ((System.currentTimeMillis() - startTime) < maxWaitTimeMs) {
+//
+//	boolean visible =  WebUI.waitForElementVisible(findTestObject('Object Repository/Page_PG Admin/Page_PG Admin/div_Sign InSign in on the PG platform'), 1, FailureHandling.OPTIONAL)
+//	if (visible) {
+//		//Login PGAdmin
+//		WebUI.setText(findTestObject('Object Repository/Page_PG Admin/input_Username  Email_username'), 'ardhiansyah356@gmail.com')
+//		WebUI.setText(findTestObject('Object Repository/Page_PG Admin/input_Password_password'), 'Mti123!@#')
+//		WebUI.click(findTestObject('Object Repository/Page_PG Admin/span_Sign in'))
+//		break
+//			
+//	}
+//	Thread.sleep(50)
+//	println('belum muncul')
+//}
 
 while ((System.currentTimeMillis() - startTime) < maxWaitTimeMs) {
 	
-	boolean visible2 =  WebUI.waitForElementVisible(findTestObject('Object Repository/Page_PG Admin/Page_PG Admin/h4_Welcome Administrators'), 1, FailureHandling.OPTIONAL)
+	boolean visible2 =  WebUI.waitForElementVisible(findTestObject('Object Repository/While/p_DASHBOARD'), 1, FailureHandling.OPTIONAL)
 	if (visible2) {
+//		Currency
 		WebUI.click(findTestObject('Object Repository/Monitoring/span_Monitoring'))
-//		WebUI.click(findTestObject('Object Repository/Monitoring/svg_Select Merchant_MuiSvgIcon-root'))
-		WebUI.delay(0.5)
+		WebUI.click(findTestObject('Object Repository/currency/Page_PG Admin/svg_-- Select Currency --_MuiSvgIcon-root'))
 		WebUI.takeScreenshot(SS1)
-		WebUI.click(findTestObject('Object Repository/currency/button_Search'))
-		WebUI.scrollToElement(findTestObject('Object Repository/Monitoring/Page_PG Admin/label_captured'), 5)
-		WebUI.takeScreenshot(SS2)
 		break
 	}
 	Thread.sleep(50)
 	println('masih ada otp')
 }
 
+		XWPFRun runCurrencyValue = paragraph.createRun()
 
-
-XWPFRun runInputValue = paragraph.createRun()
 FileInputStream is1 = new FileInputStream(SS1)
-runInputValue.addPicture(is1, XWPFDocument.PICTURE_TYPE_PNG, SS1, Units.toEMU(500), Units.toEMU(230))
-//is1.close()
-
-XWPFRun runHasilValue = paragraph.createRun()
-FileInputStream is2 = new FileInputStream(SS2)
-runHasilValue.addPicture(is2, XWPFDocument.PICTURE_TYPE_PNG, SS2, Units.toEMU(500), Units.toEMU(230))
-is2.close()
+runCurrencyValue.addPicture(is1, XWPFDocument.PICTURE_TYPE_PNG, SS1, Units.toEMU(500), Units.toEMU(230))
+is1.close()
 
 FileOutputStream out = new FileOutputStream(wordPath)
 document.write(out)

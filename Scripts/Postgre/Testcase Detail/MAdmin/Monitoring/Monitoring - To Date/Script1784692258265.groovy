@@ -28,15 +28,11 @@ import org.apache.poi.xwpf.usermodel.XWPFDocument
 import org.apache.poi.xwpf.usermodel.XWPFParagraph
 import org.apache.poi.xwpf.usermodel.XWPFRun
 import org.apache.poi.util.Units
-import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.interactions.Actions
-import payment.Search_Data
 
 long maxWaitTimeMs = 100000
 long startTime = System.currentTimeMillis()
 
 String testCaseName = GlobalVariable.currentTestCaseName
-println('cek test case name : ' + testCaseName)
 String projectDir = RunConfiguration.getProjectDir()
 String evidenceDirPath = projectDir + File.separator + "Evidence" + File.separator + "Monitor"
 
@@ -46,6 +42,7 @@ if (!folderMonitor.exists()) {
 }
 
 String wordPath = evidenceDirPath + File.separator + testCaseName + ".docx"
+println("Cek letak evidence : " + wordPath)
 
 document = new XWPFDocument()
 XWPFParagraph paragraph = document.createParagraph()
@@ -53,12 +50,11 @@ XWPFParagraph paragraph = document.createParagraph()
 XWPFRun runTitleValue = paragraph.createRun()
 runTitleValue.setBold(true)
 runTitleValue.setFontSize(12)
-runTitleValue.setText("Menu Monitoring - Merchant")
+runTitleValue.setText("Menu Monitoring - To Date")
 runTitleValue.addBreak()
 runTitleValue.setText("--------------------------------------------------")
 runTitleValue.addBreak()
 
-println("Cek letak evidence : " + wordPath)
 String SS1 = projectDir + "/1.png"
 
 //WebUI.openBrowser('')
@@ -84,24 +80,25 @@ while ((System.currentTimeMillis() - startTime) < maxWaitTimeMs) {
 	
 	boolean visible2 =  WebUI.waitForElementVisible(findTestObject('Object Repository/While/p_DASHBOARD'), 1, FailureHandling.OPTIONAL)
 	if (visible2) {
-//		Merchant
 		WebUI.click(findTestObject('Object Repository/Monitoring/span_Monitoring'))
-		WebUI.click(findTestObject('Object Repository/Monitoring/svg_Select Merchant_MuiSvgIcon-root'))
-		WebUI.setText(findTestObject('Object Repository/Monitoring/input_Select Merchant_mui-22550'), 'LEKASEHAT1')
+		WebUI.click(findTestObject('Object Repository/Monitoring/Page_PG Admin/button_To date_MuiButtonBase-root MuiIconButton-root'))
 		WebUI.takeScreenshot(SS1)
+		WebUI.sendKeys(findTestObject('null'), Keys.chord(Keys.ENTER))
 		break
 	}
 	Thread.sleep(50)
 	println('masih ada otp')
 }
 
-XWPFRun runMerchantValue = paragraph.createRun()
+
+		XWPFRun runCurrencyValue = paragraph.createRun()
 FileInputStream is1 = new FileInputStream(SS1)
-runMerchantValue.addPicture(is1, XWPFDocument.PICTURE_TYPE_PNG, SS1, Units.toEMU(500), Units.toEMU(230))
+runCurrencyValue.addPicture(is1, XWPFDocument.PICTURE_TYPE_PNG, SS1, Units.toEMU(500), Units.toEMU(230))
 is1.close()
 
 FileOutputStream out = new FileOutputStream(wordPath)
 document.write(out)
 out.close()
 println("Evidence sudah dibuat : " + wordPath)
+
 
