@@ -13,6 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
+
 import internal.GlobalVariable as GlobalVariable
 
 import com.kms.katalon.core.annotation.BeforeTestCase
@@ -28,17 +29,30 @@ class Login_MAdmin {
 	 * @param testCaseContext related information of the executed test case.
 	 */
 	@BeforeTestSuite
-	def BeforeTestSuite(TestCaseContext testCaseContext) {
+	def BeforeTestSuite(TestSuiteContext testSuiteContext) {
 		
+		String testSuiteName = testSuiteContext.getTestSuiteId()
 		long maxWaitTimeMs = 100000
 		long startTime = System.currentTimeMillis()
 		
-		WebUI.openBrowser('')
-		WebUI.authenticate('https://tst.yokke.co.id:8443/', 'mtiipg', 'brankasipg', 10)
-		WebUI.maximizeWindow()
+		def listBrowser =[
+			"MAdmin", 
+			"Login Negative Case"]
 		
-		while ((System.currentTimeMillis() - startTime) < maxWaitTimeMs) {
+		if (listBrowser.any { testSuiteName.contains(it) }) {
 			
+			WebUI.openBrowser('')
+			WebUI.authenticate('https://tst.yokke.co.id:8443/', 'mtiipg', 'brankasipg', 10)
+			WebUI.maximizeWindow()
+			
+		}
+		
+		if (testSuiteName.contains("MAdmin")) {
+			WebUI.openBrowser('')
+			WebUI.authenticate('https://tst.yokke.co.id:8443/', 'mtiipg', 'brankasipg', 10)
+			WebUI.maximizeWindow()
+			while ((System.currentTimeMillis() - startTime) < maxWaitTimeMs) {
+
 				boolean visible =  WebUI.waitForElementVisible(findTestObject('Object Repository/Page_PG Admin/Page_PG Admin/div_Sign InSign in on the PG platform'), 1, FailureHandling.OPTIONAL)
 				if (visible) {
 					//Login PGAdmin
@@ -46,10 +60,38 @@ class Login_MAdmin {
 					WebUI.setText(findTestObject('Object Repository/Page_PG Admin/input_Password_password'), 'Mti123!@#')
 					WebUI.click(findTestObject('Object Repository/Page_PG Admin/span_Sign in'))
 					break
-						
 				}
 				Thread.sleep(50)
 				println('belum muncul')
 			}
+		} else if (testSuiteName.contains("Login Negative Case")) {
+			println("Input dari Testcase")
+		
+		}
 	}
 }
+		
+//		if (testSuiteName.contains("MAdmin")) {
+//			WebUI.openBrowser('')
+//			WebUI.authenticate('https://tst.yokke.co.id:8443/', 'mtiipg', 'brankasipg', 10)
+//			WebUI.maximizeWindow()
+//			while ((System.currentTimeMillis() - startTime) < maxWaitTimeMs) {
+//				
+//					boolean visible =  WebUI.waitForElementVisible(findTestObject('Object Repository/Page_PG Admin/Page_PG Admin/div_Sign InSign in on the PG platform'), 1, FailureHandling.OPTIONAL)
+//					if (visible) {
+//						//Login PGAdmin
+//						WebUI.setText(findTestObject('Object Repository/Page_PG Admin/input_Username  Email_username'), 'ardhiansyah356@gmail.com')
+//						WebUI.setText(findTestObject('Object Repository/Page_PG Admin/input_Password_password'), 'Mti123!@#')
+//						WebUI.click(findTestObject('Object Repository/Page_PG Admin/span_Sign in'))
+//						break
+//							
+//					}
+//					Thread.sleep(50)
+//					println('belum muncul')
+//				}
+//				
+//		} else {
+//			println("Skip Listener")
+//		}
+//	}
+//}

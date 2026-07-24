@@ -38,10 +38,14 @@ long startTime = System.currentTimeMillis()
 
 String testCaseName = GlobalVariable.currentTestCaseName
 String projectDir = RunConfiguration.getProjectDir()
-String evidenceDirPath = projectDir + File.separator + "Evidence"
-println('cek test case name : ' + testCaseName)
-String wordPath = evidenceDirPath + File.separator + testCaseName + ".docx"
+String evidenceDirPath = projectDir + File.separator + "Evidence" + File.separator + "Login Failed"
 
+File folderMonitor = new File(evidenceDirPath)
+if (!folderMonitor.exists()) {
+	folderMonitor.mkdirs() 
+}
+
+String wordPath = evidenceDirPath + File.separator + testCaseName + ".docx"
 println("Cek letak evidence : " + wordPath)
 String SS1 = projectDir + "/1.png"
 String SS2 = projectDir + "/2.png"
@@ -59,8 +63,6 @@ runTitleValue.addBreak()
 
 WebUI.openBrowser('')
 WebUI.authenticate('https://tst.yokke.co.id:8443/', 'mtiipg', 'brankasipg', 10)
-//WebUI.openBrowser('https://mtiipg:brankasipg@tst.yokke.co.id:8443/')
-//WebUI.openBrowser('https://tst.yokke.co.id:8443/')
 WebUI.maximizeWindow()
 
 while ((System.currentTimeMillis() - startTime) < maxWaitTimeMs) {

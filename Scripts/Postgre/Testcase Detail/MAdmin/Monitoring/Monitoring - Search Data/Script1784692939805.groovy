@@ -117,7 +117,7 @@ while ((System.currentTimeMillis() - startTime) < maxWaitTimeMs) {
 		XWPFRun runCurrencyValue = paragraph.createRun()
 FileInputStream is1 = new FileInputStream(SS1)
 runCurrencyValue.addPicture(is1, XWPFDocument.PICTURE_TYPE_PNG, SS1, Units.toEMU(500), Units.toEMU(230))
-//is1.close()
+is1.close()
 
 FileInputStream is2 = new FileInputStream(SS2)
 runCurrencyValue.addPicture(is2, XWPFDocument.PICTURE_TYPE_PNG, SS2, Units.toEMU(500), Units.toEMU(230))

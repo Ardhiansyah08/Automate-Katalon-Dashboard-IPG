@@ -25,7 +25,8 @@ import com.kms.katalon.core.util.KeywordUtil
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.testdata.TestDataFactory
 
-String TestCaseName = GlobalVariable.TestCaseName
+String TestCaseName = RunConfiguration.getExecutionSourceName()
+//String TestCaseName = GlobalVariable.TestCaseName
 String projectDir = RunConfiguration.getProjectDir()
 String evidenceDirPath = projectDir + File.separator + "Evidence"
 File folder = new File(evidenceDirPath)

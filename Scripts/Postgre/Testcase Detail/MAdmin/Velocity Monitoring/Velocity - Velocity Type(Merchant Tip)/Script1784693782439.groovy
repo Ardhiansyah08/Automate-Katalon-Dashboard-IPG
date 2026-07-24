@@ -86,6 +86,7 @@ while ((System.currentTimeMillis() - startTime) < maxWaitTimeMs) {
 		WebUI.click(findTestObject('Object Repository/Velocity Monitoring/Select Velocity Monitoring'))
 		
 //		TC 44 Merchant Tip
+		WebUI.click(findTestObject('Object Repository/Velocity Monitoring/Dropdown Velocity Type'))
 		WebUI.click(findTestObject('Object Repository/Velocity Monitoring/Select Velocity Type/merchantip - Merchant IP validator'))
 		WebUI.click(findTestObject('Object Repository/Velocity Monitoring/button_Search'))
 		WebUI.takeScreenshot(SS1)

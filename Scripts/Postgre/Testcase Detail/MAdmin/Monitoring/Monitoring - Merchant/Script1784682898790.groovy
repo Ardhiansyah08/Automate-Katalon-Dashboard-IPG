@@ -88,6 +88,7 @@ while ((System.currentTimeMillis() - startTime) < maxWaitTimeMs) {
 		WebUI.click(findTestObject('Object Repository/Monitoring/span_Monitoring'))
 		WebUI.click(findTestObject('Object Repository/Monitoring/svg_Select Merchant_MuiSvgIcon-root'))
 		WebUI.setText(findTestObject('Object Repository/Monitoring/input_Select Merchant_mui-22550'), 'LEKASEHAT1')
+		WebUI.delay(0.5)
 		WebUI.takeScreenshot(SS1)
 		break
 	}
